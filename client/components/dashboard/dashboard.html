@@ -1,0 +1,15 @@
+<div class="Dashboard-Container">
+    <p class="Dashboard-Header">Astronauts in space</p>
+    <table class="Dashboard-Table">
+        <tbody>
+            <tr>
+                <th>Craft</th>
+                <th>Name</th>
+            </tr>
+            <tr ng-repeat="astronaut in $ctrl.astronauts.people">
+                <td>{{astronaut.craft}}</td>
+                <td>{{astronaut.name}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

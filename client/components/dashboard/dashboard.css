@@ -1,0 +1,26 @@
+.Dashboard-Container {
+    background-color: #650359;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    margin: 5% auto;
+    min-height: 100px; 
+    width: 300px;
+    padding: 25px;
+}
+.Dashboard-Header {
+    font: 20px Calibri, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.Dashboard-Table {
+    width: 80%;
+    margin: auto;
+}
+table,th, td {
+    border-collapse: collapse;
+    font: 16px Calibri, sans-serif;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+}
