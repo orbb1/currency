@@ -8,8 +8,7 @@ export default ($stateProvider) => {
             astronauts: (SpaceService) => {
                 'ngInject';
                 return SpaceService.getAstronauts()
-                .then((response) => { 
-                    console.log(response); 
+                .then((response) => {
                     return response.data;
             });
             }

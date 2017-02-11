@@ -1,0 +1,8 @@
+body {
+    height: 100vh;
+    background: no-repeat center #7ae2cf;
+background: no-repeat center -webkit-linear-gradient(bottom left, #7ae2cf 0%, #48bace 40%, #035c66 100%);
+background: no-repeat center -o-linear-gradient(bottom left, #7ae2cf 0%, #48bace 40%, #035c66 100%);
+background: no-repeat center linear-gradient(to top right, #7ae2cf 0%, #48bace 40%, #035c66 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ae2cf', endColorstr='#035c66',GradientType=1 );
+}

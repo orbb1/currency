@@ -2,10 +2,14 @@
     background-color: #650359;
     border-radius: 5px;
     box-shadow: 0 0 5px black;
-    margin: 5% auto;
+    margin: 10% auto;
     min-height: 100px; 
     width: 300px;
     padding: 25px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all  1s;
+    -o-transition: all 1s;
 }
 .Dashboard-Header {
     font: 20px Calibri, sans-serif;
@@ -22,5 +26,20 @@ table,th, td {
     font: 16px Calibri, sans-serif;
     color: white;
     padding: 10px 5px;
-    text-align: center;
+}
+th {
+    text-transform: uppercase;
+}
+.Dashboard-Table-Column-rght {
+    text-align: right;
+}
+.Dashboard-Table-Column-left {
+    text-align: left;
+}
+
+@media (max-width: 380px) {
+    .Dashboard-Container {
+        width: 250px;
+        margin: 1% auto;
+    }
 }
