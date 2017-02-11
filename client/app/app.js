@@ -3,6 +3,7 @@ import uiRouter from 'angular-ui-router';
 import AppComponent from './app.component';
 import pagesModule from '../pages/pages';
 import componentsModule from '../components/components';
+import servicesModule from '../services/space.service';
 
 angular.module('app', [
   componentsModule,

@@ -1,0 +1,1 @@
+export const OPEN_NOTIFY_API = 'http://api.open-notify.org/astros.json';
