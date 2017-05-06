@@ -1,5 +1,5 @@
 import template from './dashboard.html';
-import './dashboard.css';
+import './dashboard.scss';
 
 let dashboardComponent = {
     template,
